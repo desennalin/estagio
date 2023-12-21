@@ -26,7 +26,7 @@ Agradecemos pela sua participação e estamos ansiosos para revisar a sua soluç
 ## Como Testar a API
 
 1. Clone este repositório em sua máquina local.
-2. Importe a coleção do Postman disponível [aqui](https://orange-satellite-630151.postman.co/workspace/NALIN~d55be685-6684-48a1-903a-269d6614028a/collection/27431475-9f064d42-fd51-4c98-951e-5e94e5a9d3ab?action=share&source=collection_link&creator=27431475) para o seu ambiente do Postman.
+2. Importe a coleção do Postman "Estágio Nalin.postman_collection.json" para o seu ambiente do Postman.
 
 ## Endpoints da API
 
