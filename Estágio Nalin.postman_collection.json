@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "9f064d42-fd51-4c98-951e-5e94e5a9d3ab",
+		"name": "Estágio Nalin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27431475",
+		"_collection_link": "https://orange-satellite-630151.postman.co/workspace/NALIN~d55be685-6684-48a1-903a-269d6614028a/collection/27431475-9f064d42-fd51-4c98-951e-5e94e5a9d3ab?action=share&source=collection_link&creator=27431475"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.lojasnalin.com.br:4000/estagionalin/login?ds_login=ESTAGIONALIN&ds_senha=3ST@G10N@L1N",
+					"protocol": "https",
+					"host": [
+						"api",
+						"lojasnalin",
+						"com",
+						"br"
+					],
+					"port": "4000",
+					"path": [
+						"estagionalin",
+						"login"
+					],
+					"query": [
+						{
+							"key": "ds_login",
+							"value": "ESTAGIONALIN"
+						},
+						{
+							"key": "ds_senha",
+							"value": "3ST@G10N@L1N"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.lojasnalin.com.br:4000/estagionalin/login?ds_login=ESTAGIONALIN&ds_senha=3ST@G10N@L1N",
+							"protocol": "https",
+							"host": [
+								"api",
+								"lojasnalin",
+								"com",
+								"br"
+							],
+							"port": "4000",
+							"path": [
+								"estagionalin",
+								"login"
+							],
+							"query": [
+								{
+									"key": "ds_login",
+									"value": "ESTAGIONALIN"
+								},
+								{
+									"key": "ds_senha",
+									"value": "3ST@G10N@L1N"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "295"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"127-EtpY7RIGF3YTvHCax5kUZQfzmDo\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 20 Dec 2023 20:07:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statuscode\": 200,\n    \"message\": \"Login efetuado com sucesso\",\n    \"data\": [\n        {\n            \"ds_login\": \"ESTAGIONALIN\",\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkc19sb2dpbiI6IkVTVEFHSU9OQUxJTiIsImlhdCI6MTcwMzEwMjg0NywiZXhwIjoxNzAzMTE3MjQ3fQ.WzfRXWkQWIduGLU1U-jsQc1DUKhEai_LpP-gNN9DJSE\",\n            \"expires_in\": 1703117247405\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Produtos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkc19sb2dpbiI6IkVTVEFHSU9OQUxJTiIsImlhdCI6MTcwMzEwMjg0NywiZXhwIjoxNzAzMTE3MjQ3fQ.WzfRXWkQWIduGLU1U-jsQc1DUKhEai_LpP-gNN9DJSE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.lojasnalin.com.br:4000/estagionalin/produtos/listar",
+					"protocol": "https",
+					"host": [
+						"api",
+						"lojasnalin",
+						"com",
+						"br"
+					],
+					"port": "4000",
+					"path": [
+						"estagionalin",
+						"produtos",
+						"listar"
+					],
+					"query": [
+						{
+							"key": "codigo",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "departamento",
+							"value": "Roupas",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Produtos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.lojasnalin.com.br:4000/estagionalin/produtos/listar",
+							"protocol": "https",
+							"host": [
+								"api",
+								"lojasnalin",
+								"com",
+								"br"
+							],
+							"port": "4000",
+							"path": [
+								"estagionalin",
+								"produtos",
+								"listar"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "departamento",
+									"value": "Roupas",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "438"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b6-9B7oQyad0yXKoBGbVci7fsYb5oM\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 20 Dec 2023 20:35:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statuscode\": 200,\n    \"message\": \"Sucesso\",\n    \"data\": [\n        {\n            \"codigo\": 2,\n            \"descricao\": \"Produto 2\",\n            \"departamento\": \"Roupas\",\n            \"valor\": \"49.99\"\n        },\n        {\n            \"codigo\": 7,\n            \"descricao\": \"Produto 7\",\n            \"departamento\": \"Roupas\",\n            \"valor\": \"79.99\"\n        },\n        {\n            \"codigo\": 11,\n            \"descricao\": \"Produto 11\",\n            \"departamento\": \"Roupas\",\n            \"valor\": \"69.99\"\n        },\n        {\n            \"codigo\": 14,\n            \"descricao\": \"Produto 14\",\n            \"departamento\": \"Roupas\",\n            \"valor\": \"89.99\"\n        },\n        {\n            \"codigo\": 18,\n            \"descricao\": \"Produto 18\",\n            \"departamento\": \"Roupas\",\n            \"valor\": \"59.99\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
