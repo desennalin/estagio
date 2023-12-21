@@ -1,4 +1,4 @@
-# Desafio de Desenvolvimento de API - Estágio Nalin
+# Desafio de Desenvolvimento - Estágio Nalin
 
 Este repositório contém uma API desenvolvida para o desafio de estágio na Nalin, juntamente com uma coleção do Postman para testar os endpoints da API.
 
