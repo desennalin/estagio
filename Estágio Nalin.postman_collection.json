@@ -1,11 +1,4 @@
 {
-	"info": {
-		"_postman_id": "9f064d42-fd51-4c98-951e-5e94e5a9d3ab",
-		"name": "Estágio Nalin",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "27431475",
-		"_collection_link": "https://orange-satellite-630151.postman.co/workspace/NALIN~d55be685-6684-48a1-903a-269d6614028a/collection/27431475-9f064d42-fd51-4c98-951e-5e94e5a9d3ab?action=share&source=collection_link&creator=27431475"
-	},
 	"item": [
 		{
 			"name": "Login",
