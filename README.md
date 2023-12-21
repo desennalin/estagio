@@ -6,6 +6,23 @@ Este repositório contém uma API desenvolvida para o desafio de estágio na Nal
 
 O desafio consiste em criar uma tela de login e, após o login bem-sucedido, redirecionar o usuário para uma tela de listagem de produtos. A tela de listagem deve permitir filtros por código, departamento ou descrição.
 
+## Submissão do Desafio
+Após a conclusão do desafio, pedimos que você siga os passos abaixo para submeter sua solução:
+
+Disponibilize o Código no GitHub:
+
+1. Crie um repositório público no GitHub para o seu projeto.
+   * Envie o Link do Repositório:
+
+2. Envie o link do seu repositório para devteam@lojasnalin.com.br até a data limite de submissão.
+   * Instruções de Execução:
+
+3. Inclua no README do seu repositório instruções claras sobre como executar e testar a aplicação.
+   * Avaliação:
+     A equipe avaliadora irá revisar seu código e fornecer feedback, caso necessário.
+
+Agradecemos pela sua participação e estamos ansiosos para revisar a sua solução!
+
 ## Como Testar a API
 
 1. Clone este repositório em sua máquina local.
